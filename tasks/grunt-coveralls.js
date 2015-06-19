@@ -5,7 +5,7 @@ module.exports = function (grunt) {
     grunt.config('coveralls', {
         options: {
             // LCOV coverage file relevant to every target
-            src: '<%= workspace %>/artifacts/coverage/lcov.info',
+            // src: '<%= workspace %>/artifacts/coverage/lcov.info',
 
             // When true, grunt-coveralls will only print a warning rather than
             // an error, to prevent CI builds from failing unnecessarily (e.g. if
@@ -14,7 +14,7 @@ module.exports = function (grunt) {
         },
 
         coverage: {
-            src: '<%= workspace %>/artifacts/coverage/lcov.info'
+            src: 'artifacts/coverage/lcov.info'
         }
     });
 };
