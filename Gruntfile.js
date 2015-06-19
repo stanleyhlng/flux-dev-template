@@ -29,6 +29,10 @@ module.exports = function(grunt) {
         'mochaTest'
     ]);
 
+    grunt.registerTask('test', [
+        'cover'
+    ]);
+
     grunt.registerTask('default', [
         'clean',
         'lint',
