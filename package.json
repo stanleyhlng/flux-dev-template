@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "cover": "grunt coverage",
-    "test": "grunt unit"
+    "unit": "grunt unit",
+    "test": "grunt test"
   },
   "author": "",
   "license": "ISC",
