@@ -1,0 +1,12 @@
+/artifacts/
+/build/
+/components/
+/coverage/
+/protractor-batch-artifacts/
+/results/
+/screwdriver/
+!/tests/spec
+lcov-*
+xunit*
+/coverage/
+styles/

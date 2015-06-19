@@ -1,0 +1,21 @@
+{
+    "env": {
+        "browser": true,
+        "mocha": true,
+        "node": true,
+        "es6": true
+    },
+    "ecmaFeatures": {
+        "modules": true,
+        "jsx": true
+    },
+    "rules": {
+        "quotes": "single",
+        "no-unused-vars": [1,
+            {
+                "vars": "all",
+                "args": "after-used"
+            }
+        ],
+    }
+}

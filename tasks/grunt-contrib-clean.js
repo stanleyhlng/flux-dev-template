@@ -1,0 +1,10 @@
+module.exports = function(grunt) {
+    'use strict';
+
+    grunt.loadNpmTasks('grunt-contrib-clean');
+    grunt.config('clean', [
+        'build',
+        'coverage',
+        'dist'
+    ]);
+};
