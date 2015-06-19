@@ -1,5 +1,6 @@
 after_success:
 - git checkout .validate.json
+- "./node_modules/.bin/grunt coveralls"
 before_script:
 - "./node_modules/.bin/bower install"
 env:
