@@ -22,7 +22,8 @@ module.exports = function(grunt) {
         'instrument',
         'unit',
         'storeCoverage',
-        'makeReport'
+        'makeReport',
+        'shell:transform-coverage'
     ]);
 
     grunt.registerTask('unit', [

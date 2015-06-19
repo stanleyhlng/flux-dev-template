@@ -5,7 +5,7 @@ module.exports = function (grunt) {
     grunt.config('babel', {
         options: {
             modules: 'common',
-            sourceMap: 'inline'
+            sourceMap: 'both'
         },
         src: {
             files: [

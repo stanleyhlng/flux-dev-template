@@ -10,7 +10,7 @@ module.exports = function (grunt) {
             force: false
         },
         coverage: {
-            src: '<%= workspace %>/artifacts/coverage/lcov.info'
+            src: '<%= workspace %>/artifacts/coverage/lcov-transformed.info'
         }
     });
 };
